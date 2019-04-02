@@ -1,0 +1,125 @@
+html, body {
+    min-height: 100vh;
+}
+
+#admin-nav {
+    padding-top: 20px;
+    background-color: rgb(43, 43, 43);
+    flex-basis: 200px;
+}
+
+#admin-nav a {
+    color: #eee;
+    text-decoration: none;
+}
+
+#admin-nav i {
+    width: 25px;
+}
+
+#admin-nav div {
+    padding: 10px 20px 10px 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+}
+
+#pages-table {
+    /* min-width: 800px; */
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom:  30px;
+}
+
+#pages-table th,
+#pages-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* #pages-table td:nth-child(4), 
+#pages-table th:nth-child(4){
+    text-align: center;
+} */
+#pages-table td.edit-column,
+#pages-table th.edit-column {
+    text-align: center;
+}
+
+#pages-table td.preview-column,
+#pages-table th.preview-column {
+    text-align: center;
+}
+
+#pages-table td.order-column,
+#pages-table th.order-column {
+    text-align: center;
+}
+
+#pages-table td.delete-column,
+#pages-table th.delete-column {
+    text-align: center;
+}
+
+#editor {
+    min-height: 20em;
+}
+
+div.form-group.editor {
+    margin-top: 30px;
+}
+
+div.form-group.editor label {
+    margin-bottom: 10px;
+}
+
+div.form-group {
+    margin: 15px 0 10px 0;
+}
+
+div.form-group input[type="text"],
+div.form-group select {
+    display: block;
+    margin: 5px 0 5px 0;
+    padding: 8px;
+    width: 30em;
+}
+
+div.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+#page-editor button[type="submit"],
+button.submit-button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: rgb(43, 43, 43);
+    color: #eee;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+#pages-table a:visited {
+    color: rgb(55, 71, 146);
+}
+
+#pages-table a {
+    color: rgb(55, 71, 146);
+}
