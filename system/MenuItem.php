@@ -133,7 +133,7 @@ class MenuItem {
 
     public static function createTable($pdo) {
         $sql = 
-            "CREATE TABLE IF NOT EXISTS `menuitem` (
+            "CREATE TABLE IF NOT EXISTS `MenuItem` (
                 `id` int(11) NOT NULL AUTO_INCREMENT,
                 `title` varchar(255) DEFAULT NULL,
                 `link` varchar(255) DEFAULT NULL,
